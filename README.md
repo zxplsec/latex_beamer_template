@@ -1,0 +1,1 @@
+# latex_beamer_template
