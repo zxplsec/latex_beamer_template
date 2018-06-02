@@ -1,0 +1,23 @@
+\frametitle{Structure - Columns}
+\begin{columns}[t]
+  \begin{column}{.5\textwidth}
+    col1
+  \end{column}
+  \begin{column}{.5\textwidth}
+    col2
+  \end{column}
+\end{columns}
+  \centering
+
+\begin{verbatim}
+\begin{columns}[t]
+  \begin{column}{.5\textwidth}
+    col1
+  \end{column}
+  \begin{column}{.5\textwidth}
+    col2
+  \end{column}
+\end{columns}
+\end{verbatim}
+
+

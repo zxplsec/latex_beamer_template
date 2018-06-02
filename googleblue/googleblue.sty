@@ -13,7 +13,8 @@
 % \newfontfamily\plexcondensed{IBM Plex Sans Condensed}
 
 % Itemize items: default (triangle), circle, square, ball
-\setbeamertemplate{itemize items}[circle]
+%\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize items}{\large$\bullet$}
 
 % Enumerate items: default, circle, square, ball
 \setbeamertemplate{enumerate items}[circle]
@@ -119,13 +120,13 @@
 {
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth]{section in head/foot}
-    \vskip5pt
-    \hskip10pt
+    \vskip4pt
+    \hskip8pt
     \insertshorttitle
     \hfill
-    % \plexcondensed
-    % \insertsectionnavigationhorizontal{.8\textwidth}{\hskip0pt plus1fill}{}  % something wrong
-    \vskip5pt
+    %\plexcondensed
+    \insertsectionnavigationhorizontal{.8\textwidth}{\hskip0pt plus1fill}{}  % something wrong
+    \vskip2pt
 
     \ifx\insertframesubtitle\@empty
       \pgfuseshading{b@matshade}

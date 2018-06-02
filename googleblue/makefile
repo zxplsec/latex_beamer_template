@@ -1,4 +1,4 @@
-file=googleblue
+file=GDL
 
 all: pdf out 
 	make pdf
